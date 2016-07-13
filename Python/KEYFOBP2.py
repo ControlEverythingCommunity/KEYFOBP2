@@ -32,35 +32,35 @@ GPIO.setup(D7, GPIO.IN, pull_up_down = GPIO.PUD_DOWN)
 
 # Create callback function for GPIO pin 21
 def button0(channel):
-	print(“Button 1 pressed!”)
+	print(”Button 1 pressed!”)
 
 # Create callback function for GPIO pin 22
 def button1(channel):
-	print(“Button 2 pressed!”)
+	print(”Button 2 pressed!”)
 
 # Create callback function for GPIO pin 23
 def button2(channel):
-	print(“Button 3 pressed!”)
+	print(”Button 3 pressed!”)
 
 # Create callback function for GPIO pin 24
 def button3(channel):
-	print(“Button 4 pressed!”)
+	print(”Button 4 pressed!”)
 
 # Create callback function for GPIO pin 25
 def button4(channel):
-	print(“Button 5 pressed!”)
+	print(”Button 5 pressed!”)
 
 # Create callback function for GPIO pin 29
 def button5(channel):
-	print(“Button 6 pressed!”)
+	print(”Button 6 pressed!”)
 	
 # Create callback function for GPIO pin 28
 def button6(channel):
-	print(“Button 7 pressed!”)
+	print(”Button 7 pressed!”)
 
 # Create callback function for GPIO pin 27
 def button7(channel):
-	print(“Button 8 pressed!”)
+	print(”Button 8 pressed!”)
 
 # Create event listeners for Respective GPIO pins
 # No edge detection for 300 ms, with bouncetime = 300 ms
